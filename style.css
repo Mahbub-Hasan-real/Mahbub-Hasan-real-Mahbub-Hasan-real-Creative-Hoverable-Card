@@ -100,11 +100,8 @@ section
     display: flex;
     justify-content: center;
     align-items: center;
-    bottom: 60px;
+    bottom: 30px;
     list-style: none;
-    color: #fff;
-    margin: 0 10px;
-    font-size: 40px;
 }
 .container ul li
 {
@@ -117,4 +114,21 @@ section
 {
     transform: translateY(0);
     opacity: 1;
+}
+.container ul li i{
+    color: #fff;
+    font-size: 35px;
+    margin: 0 10px;
+}
+.container ul li:nth-child(1) i:hover
+{
+    color: #3b5998;
+}
+.container ul li:nth-child(2) i:hover
+{
+    color: #00acee;
+}
+.container ul li:nth-child(3) i:hover
+{
+    color: #F56040;
 }
