@@ -114,6 +114,8 @@ section
 {
     transform: translateY(0);
     opacity: 1;
+    color:#fff;
+    margin: 0px 10px;
 }
 .container ul li i{
     color: #fff;
